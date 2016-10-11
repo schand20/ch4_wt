@@ -4,7 +4,7 @@ class MoviesController < ApplicationController
     @movies = Movie.all
   end
   
-# in app/controllers/movies_controller.rb
+# in app/controllers/movies_controller.rb 
 
   def show
     id = params[:id] # retrieve movie ID from URI route
