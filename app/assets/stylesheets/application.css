@@ -30,6 +30,18 @@ div#main {
   margin: 0;
   padding: 0 20px 20px;
 }
+div#notice.message {
+  margin: 0;
+  padding: 0 20px 20px;
+  color: red;
+  text-align: center;
+}
+div#notice.warning {
+  margin: 0;
+  padding: 0 20px 20px;
+  color: red;
+  text-align: center;
+}
 a {
   background: transparent;
   color: maroon;
